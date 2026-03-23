@@ -30,38 +30,38 @@
   :root {
     --radius: 0.25rem;
 
-    /* Dark luxury palette */
-    --background: 0.08 0 0;
-    --foreground: 0.96 0 0;
-    --card: 0.12 0.01 60;
-    --card-foreground: 0.96 0 0;
-    --popover: 0.12 0.01 60;
-    --popover-foreground: 0.96 0 0;
+    /* Navy blue & white luxury palette */
+    --background: 0.18 0.08 250;
+    --foreground: 0.98 0 0;
+    --card: 0.24 0.08 250;
+    --card-foreground: 0.98 0 0;
+    --popover: 0.24 0.08 250;
+    --popover-foreground: 0.98 0 0;
     --primary: 0.72 0.15 85;
-    --primary-foreground: 0.08 0 0;
-    --secondary: 0.18 0.02 60;
-    --secondary-foreground: 0.96 0 0;
-    --muted: 0.25 0.02 60;
-    --muted-foreground: 0.65 0.03 60;
+    --primary-foreground: 0.10 0 0;
+    --secondary: 0.30 0.08 250;
+    --secondary-foreground: 0.98 0 0;
+    --muted: 0.35 0.07 250;
+    --muted-foreground: 0.72 0.04 250;
     --accent: 0.80 0.18 85;
-    --accent-foreground: 0.08 0 0;
+    --accent-foreground: 0.10 0 0;
     --destructive: 0.577 0.245 27.325;
     --destructive-foreground: 0.985 0 0;
-    --border: 0.22 0.03 60;
-    --input: 0.22 0.03 60;
+    --border: 0.32 0.07 250;
+    --input: 0.32 0.07 250;
     --ring: 0.72 0.15 85;
     --chart-1: 0.72 0.15 85;
     --chart-2: 0.60 0.12 60;
-    --chart-3: 0.45 0.08 60;
-    --chart-4: 0.35 0.05 60;
-    --chart-5: 0.25 0.02 60;
-    --sidebar: 0.10 0.01 60;
-    --sidebar-foreground: 0.96 0 0;
+    --chart-3: 0.45 0.08 250;
+    --chart-4: 0.35 0.07 250;
+    --chart-5: 0.25 0.06 250;
+    --sidebar: 0.20 0.08 250;
+    --sidebar-foreground: 0.98 0 0;
     --sidebar-primary: 0.72 0.15 85;
-    --sidebar-primary-foreground: 0.08 0 0;
-    --sidebar-accent: 0.18 0.02 60;
-    --sidebar-accent-foreground: 0.96 0 0;
-    --sidebar-border: 0.22 0.03 60;
+    --sidebar-primary-foreground: 0.10 0 0;
+    --sidebar-accent: 0.30 0.08 250;
+    --sidebar-accent-foreground: 0.98 0 0;
+    --sidebar-border: 0.32 0.07 250;
     --sidebar-ring: 0.72 0.15 85;
   }
 
@@ -109,10 +109,10 @@
   }
 
   .glass-card {
-    background: rgba(18, 16, 12, 0.6);
+    background: rgba(15, 25, 60, 0.6);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(185, 150, 80, 0.2);
+    border: 1px solid rgba(185, 150, 80, 0.25);
   }
 
   .gold-gradient {
@@ -140,20 +140,20 @@
   .watch-gradient {
     background: linear-gradient(
       135deg,
-      #0a0806 0%,
-      #1a1208 30%,
-      #2a1e10 60%,
-      #1a1208 100%
+      oklch(0.15 0.08 250) 0%,
+      oklch(0.22 0.09 250) 30%,
+      oklch(0.28 0.09 250) 60%,
+      oklch(0.22 0.09 250) 100%
     );
   }
 
   .shoe-gradient {
     background: linear-gradient(
       135deg,
-      #080a0a 0%,
-      #0d1318 30%,
-      #121c24 60%,
-      #0d1318 100%
+      oklch(0.15 0.08 250) 0%,
+      oklch(0.22 0.09 260) 30%,
+      oklch(0.28 0.09 260) 60%,
+      oklch(0.22 0.09 260) 100%
     );
   }
 
@@ -186,7 +186,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: oklch(0.08 0 0);
+  background: oklch(0.18 0.08 250);
 }
 
 ::-webkit-scrollbar-thumb {

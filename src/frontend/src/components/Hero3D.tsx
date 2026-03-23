@@ -315,7 +315,7 @@ export function Hero3D() {
         <Canvas
           camera={{ position: [0, 0, 6], fov: 55 }}
           gl={{ antialias: true, alpha: false }}
-          style={{ background: "oklch(0.08 0 0)" }}
+          style={{ background: "oklch(0.18 0.08 250)" }}
         >
           <Suspense fallback={null}>
             <Scene />
@@ -327,7 +327,7 @@ export function Hero3D() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, rgba(0,0,0,0.7) 100%)",
+            "radial-gradient(ellipse 80% 80% at 50% 50%, transparent 30%, rgba(5, 15, 45, 0.75) 100%)",
         }}
       />
 
@@ -335,7 +335,7 @@ export function Hero3D() {
         className="absolute bottom-0 left-0 right-0 h-40 pointer-events-none"
         style={{
           background:
-            "linear-gradient(to bottom, transparent, oklch(0.08 0 0))",
+            "linear-gradient(to bottom, transparent, oklch(0.18 0.08 250))",
         }}
       />
 

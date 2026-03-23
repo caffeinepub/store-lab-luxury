@@ -171,7 +171,7 @@ function WatchesSection() {
     <section
       id="watches"
       className="py-28 px-6"
-      style={{ background: "oklch(0.10 0.01 60)" }}
+      style={{ background: "oklch(0.22 0.09 250)" }}
     >
       <div className="max-w-7xl mx-auto">
         <SectionTitle title="TIMEPIECES" subtitle="Swiss & Haute Horlogerie" />
@@ -214,7 +214,7 @@ function ShoesSection() {
     <section
       id="shoes"
       className="py-28 px-6"
-      style={{ background: "oklch(0.13 0.015 60)" }}
+      style={{ background: "oklch(0.25 0.09 250)" }}
     >
       <div className="max-w-7xl mx-auto">
         <SectionTitle title="FOOTWEAR" subtitle="Artisanal & Designer" />
@@ -284,7 +284,7 @@ function CollectionsSection() {
                 className="absolute inset-0"
                 style={{
                   background:
-                    "linear-gradient(135deg, oklch(0.08 0 0) 0%, oklch(0.18 0.04 75) 100%)",
+                    "linear-gradient(135deg, oklch(0.18 0.08 250) 0%, oklch(0.28 0.09 250) 100%)",
                 }}
               />
               <div
@@ -332,14 +332,14 @@ function CollectionsSection() {
                 className="absolute inset-0"
                 style={{
                   background:
-                    "linear-gradient(135deg, oklch(0.08 0 0) 0%, oklch(0.16 0.02 220) 100%)",
+                    "linear-gradient(135deg, oklch(0.18 0.08 250) 0%, oklch(0.28 0.09 265) 100%)",
                 }}
               />
               <div
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700"
                 style={{
                   background:
-                    "radial-gradient(circle at 40% 60%, rgba(80, 120, 185, 0.15) 0%, transparent 70%)",
+                    "radial-gradient(circle at 40% 60%, rgba(80, 120, 185, 0.20) 0%, transparent 70%)",
                 }}
               />
 
@@ -388,7 +388,7 @@ function BrandStorySection() {
       className="py-28 px-6"
       style={{
         background:
-          "linear-gradient(180deg, oklch(0.08 0 0) 0%, oklch(0.10 0.01 60) 50%, oklch(0.08 0 0) 100%)",
+          "linear-gradient(180deg, oklch(0.18 0.08 250) 0%, oklch(0.22 0.09 250) 50%, oklch(0.18 0.08 250) 100%)",
       }}
     >
       <div className="max-w-3xl mx-auto text-center">
@@ -465,8 +465,8 @@ function Footer() {
     <footer
       className="py-16 px-6"
       style={{
-        background: "oklch(0.06 0 0)",
-        borderTop: "1px solid oklch(0.22 0.03 60)",
+        background: "oklch(0.15 0.08 250)",
+        borderTop: "1px solid oklch(0.28 0.07 250)",
       }}
     >
       <div className="max-w-7xl mx-auto">
@@ -503,7 +503,7 @@ function Footer() {
         {/* Bottom */}
         <div
           className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4"
-          style={{ borderTop: "1px solid oklch(0.15 0.02 60)" }}
+          style={{ borderTop: "1px solid oklch(0.25 0.07 250)" }}
         >
           <p className="font-body text-xs text-muted-foreground">
             &copy; {year} Store Lab. All rights reserved.
